@@ -1,3 +1,4 @@
+"use client"
 import { useEffect, useState } from "react";
 
 const GRID_SIZE = 4;
