@@ -5,7 +5,6 @@ import { useState } from "react";
 import { Share } from "@/components/share";
 import Game2048 from "@/components/2048-game";
 
-export { generateMetadata };
 
 export default function Home() {
   const [score, setScore] = useState(0);
