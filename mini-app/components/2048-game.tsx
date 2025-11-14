@@ -144,18 +144,18 @@ export default function Game2048({
 
       <div className="flex flex-col items-center gap-2">
         <div className="flex gap-2">
-          <button onClick={() => handleMove("up")} className="p-2 bg-gray-300 rounded">
+          <button onClick={() => handleMove("up")} className="p-2 bg-blue-500 rounded">
             ↑
           </button>
         </div>
         <div className="flex gap-2">
-          <button onClick={() => handleMove("left")} className="p-2 bg-gray-300 rounded">
+          <button onClick={() => handleMove("left")} className="p-2 bg-blue-500 rounded">
             ←
           </button>
-          <button onClick={() => handleMove("down")} className="p-2 bg-gray-300 rounded">
+          <button onClick={() => handleMove("down")} className="p-2 bg-blue-500 rounded">
             ↓
           </button>
-          <button onClick={() => handleMove("right")} className="p-2 bg-gray-300 rounded">
+          <button onClick={() => handleMove("right")} className="p-2 bg-blue-500 rounded">
             →
           </button>
         </div>
