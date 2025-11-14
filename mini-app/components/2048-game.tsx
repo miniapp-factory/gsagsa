@@ -86,8 +86,9 @@ export default function Game2048({
   const [score, setScore] = useState(0);
   const [gameOver, setGameOver] = useState(false);
 
+  /* eslint-disable-next-line react-hooks/exhaustive-deps */
   useEffect(() => {
-    let init = addRandomTile(addRandomTile(board));
+    const init = addRandomTile(addRandomTile(board));
     setBoard(init);
   }, []);
 

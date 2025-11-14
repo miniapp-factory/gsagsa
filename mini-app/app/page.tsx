@@ -1,6 +1,5 @@
 "use client"
 import { description, title, url } from "@/lib/metadata";
-import { generateMetadata } from "@/lib/farcaster-embed";
 import { useState } from "react";
 import { Share } from "@/components/share";
 import Game2048 from "@/components/2048-game";
